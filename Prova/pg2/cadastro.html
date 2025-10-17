@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index</title>
+    <link rel="stylesheet" href="../pg1/style.css">
+</head>
+
+<body>
+    <header>
+        <a href="../pg1/index.html"><img src="../pg1/img/panda-logo.jpg" alt="logo"></a>
+
+        <ul>
+            <li>
+                <a class="carrinho" href="pizzas.html">Pizzas</a>
+            </li>
+
+            <li>
+                <a class="carrinho" href="">Bebidas</a>
+            </li>
+
+            <li>
+                <a class="carrinho" href="">Sobre</a>
+            </li>
+
+            <li>
+                <a class="carrinho" href="">FAZER LOGIN ou iniciar cadastro</a>
+            </li>
+        </ul>
+
+        <div>
+            <ul>
+                <li>
+                    <a class="carrinho" href="">Carrinho</a> <ion-icon name="cart-outline"> </ion-icon>
+                </li>
+            </ul>
+        </div>
+
+    </header>
+
+    <main class="cadastro">
+         <form action="redirecionamento.html" method="get">
+
+        <label for="nome"> Nome*: </label>
+        <input type="text" name="nome" id="nome" required autofocus>
+
+        <label for="nome"> Sobrenome: </label>
+        <input type="text" name="nome" id="nome" required autofocus>
+
+        <label for=""></label>
+        <input type="text" value="teste" name="" id="" readonly >
+        <br>
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" placeholder="Informe seu melhor email">
+
+        <br>
+
+        <label for="dataNasc">Data de nascimento</label>
+        <input type="date" name="dataNasc" id="dataNasc" >
+
+        <br>
+
+        <label for="senha">Senha:</label>
+        <input type="password" name="senha" id="senha" maxlength="5" >
+        <br>    
+       
+        <label for="turno">Turno:</label>
+        <select name="turno" id="turno">
+            <option value="" selected hidden>Selecione seu turno</option>
+            <option value="matutino">Matutino</option>
+            <option value="vespertino">Vespertino</option>
+            <option value="noturno">Noturno</option>
+        </select>
+        <br>
+
+        <br>
+        <input type="submit" value="cadastrar">
+        <br>
+
+        <p>Sexo</p>
+        <label for="m">Masculino</label>
+        <input type="radio" name="sexo" id="m" value="m">
+
+        <label for="f">Feminino</label>
+        <input type="radio" name="sexo" id="f" value="f">
+
+        <label for="o">Prefiro nao informar</label>
+        <input type="radio" name="sexo" id="o" value="o">
+
+
+        </form>
+ 
+    </main>
+
+    <footer>
+        
+            <ul class="icones1">
+                <li><a href="icones"></a><ion-icon name="logo-twitter"></ion-icon></li>
+                <li><a href="icones"></a><ion-icon name="logo-facebook"></ion-icon></li>
+                <li><a href="icones"><ion-icon name="logo-instagram"></ion-icon></a></li>
+                <img src="../pg1/img/cocacola.webp" alt="">
+            </ul>
+        
+    </footer>
+
+    <a href="https://www.flaticon.com/br/icones-gratis/carrinho" title="carrinho ícones"></a>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
